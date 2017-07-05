@@ -6,10 +6,18 @@ if(empty($hasil)){
 
 else{
 	?>
-    <div class="row">
+    <!-- <div class="row"> -->
     
     <?php
+    $i = 0;
 	foreach($hasil as $data){
+    if($i%3==0) {
+        if ($i==0) {
+            echo '<div class="row" style="margin-bottom:15px;">';
+        } else{
+            echo '</div><div class="row" style="margin-bottom:15px;">';
+        }
+    } 
 		?>
         <div class="col-md-4 " style="margin-bottom:30px; min-height:250px; ">
     
@@ -43,6 +51,7 @@ background-image : repeat; border-radius:5px;">
         
         
         <?php
+        $i++;
 	}
 	?>
     </div>

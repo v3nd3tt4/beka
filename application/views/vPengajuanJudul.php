@@ -1,6 +1,6 @@
 	<div class="row">
 		<div class="col-md-12">
-			<h3>Pengajuan Judul Skripsi <a href="<?=base_url()?>pengajuan_judul/judul_diterima" class="btn btn-primary pull-right"><span class="glyphicon glyphicon-eye-open"></span>  Lihat Judul Yang Diterima</a></h3>
+			<h3>Pengajuan Judul Skripsi <a href="<?=base_url()?>pengajuan_judul/judul_diterima" class="btn btn-primary pull-right"><span class="glyphicon glyphicon-eye-open"></span>  Judul Yang Diterima</a> <a href="<?=base_url()?>pengajuan_judul/judul_ditolak" class="btn btn-danger pull-right"><span class="glyphicon glyphicon-eye-open"></span>  Judul Yang Ditolak</a></h3>
 		</div>
 	</div>
 	<hr/>

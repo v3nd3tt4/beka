@@ -78,4 +78,14 @@ class Pengajuan_judul extends CI_Controller {
     $this->load->view('template/wrapper',$data);
   }
 
+  public function judul_ditolak(){
+    $this->load->model('M_admin');
+    $data=array(
+      'title'=>'Pengajuan Judul Skripsi',
+      'isi'=>'judul_ditolak',
+      'list' => $this->M_admin->getData('pengajuan_judul', array('judul_diterima is NULL' => NULL ))
+          );
+    $this->load->view('template/wrapper',$data);
+  }  
+
 }

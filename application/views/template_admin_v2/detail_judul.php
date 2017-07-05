@@ -55,6 +55,7 @@
                                 <label class="radio-inline"><input type="radio" name="judul_yang_diterima" value="1" <?=$row->judul_diterima == 1 ? "checked" : ""?>>Judul 1</label>
                                 <label class="radio-inline"><input type="radio" name="judul_yang_diterima" value="2" <?=$row->judul_diterima == 2 ? "checked" : ""?>>Judul 2</label>
                                 <label class="radio-inline"><input type="radio" name="judul_yang_diterima" value="3" <?=$row->judul_diterima == 3 ? "checked" : ""?>>Judul 3</label>
+                                <label class="radio-inline"><input type="radio" name="judul_yang_diterima" value="4" <?=$row->judul_diterima == 4 ? "checked" : ""?>>Tolak</label>
                             </td>
                         </tr>
                         <tr>
