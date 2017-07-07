@@ -16,7 +16,7 @@ class Pengajuan_judul extends CI_Controller {
 
         public function tambah_judul(){
             $this->load->model('M_admin');
-            $cek = $this->M_admin->getData('pengajuan_judul', array('npm' => $this->input->post('npm', true)));
+            $cek = $this->M_admin->getData('pengajuan_judul', array('npm' => $this->input->post('npm', true), 'judul_diterima is not null' => null ));
             if($cek->num_rows() != 0){
                 echo '<div class="alert alert-danger"><a href="#" class="close" data-dismiss="alert" arial-label="close">&times;</a><strong>Peringatan!</strong> Anda sudah pernah melakukan pengajuan judul !</div>';
             }else{
