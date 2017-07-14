@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-//class untuk halaman utama test
+//class untuk halaman utama
 class Activity extends CI_Controller {
 	//memanggil halaman aktivity
 	function index($id=NULL){
