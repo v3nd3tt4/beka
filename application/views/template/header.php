@@ -11,7 +11,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?php echo $title; ?></title>
-<link rel="shortcut icon" href="<?php echo base_url(); ?>assets/images/6-_1oRuQ.jpg"/>
+<link rel="shortcut icon" href="<?php echo base_url(); ?>assets/logo_uin.png"/>
 <link rel="stylesheet" href="<?php echo base_url(); ?>assets/bootStrap/css/bootstrap.min.css"/>
 <link rel="stylesheet" href="<?php echo base_url(); ?>assets/dataTable/css/dataTables.bootstrap.css"/>
 <link rel="stylesheet" href="<?php echo base_url(); ?>assets/style.css"/>
@@ -138,7 +138,7 @@ min-height:180px;
 	<div class="container">
         <div class="col-md-2">
 <br/>
-   <img src="<?php echo base_url(); ?>assets/images/6-_1oRuQ.jpg" class="img-responsive" width="110"/>
+   <img src="<?php echo base_url(); ?>assets/logo_uin.png" class="img-responsive" width="110"/>
 </div>
     	<div class="col-md-10">
         	<br/><p> </p>
